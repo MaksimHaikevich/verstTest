@@ -228,7 +228,7 @@ h6 {
 
     .picture {
         position: absolute;
-        background: url("/images/wallpapper-tablet.png") no-repeat;
+        background: url("/images/wallpapper_tablet.png") no-repeat;
         width: 635px;
         height: 505px;
         margin: 349px 0 100px -322px;
@@ -336,7 +336,7 @@ h6 {
         position: relative;
         background: #0b7572;
         padding-top: 75px;
-        padding-left: 15px;
+        padding-left: 40px;
     }
 
 
@@ -371,11 +371,11 @@ h6 {
     }
 
     .picture {
-        background: url("/images/wallpaper-phone.png") no-repeat;
+        background: url("/images/wallpaper_phone.png") no-repeat;
         width: 345px;
         height: 2534px;
         border-radius: 15px;
-        margin: 314px 0 100px -251px;
+        margin: 314px 0 100px -228px;
     }
 
     .box__wrapper {
@@ -386,7 +386,7 @@ h6 {
         border-radius: 20px;
         display: block;
         position: relative;
-        margin: -163px 0 -3px 15px;
+        margin: -163px 0 -3px 35px;
 
     }
 
