@@ -159,7 +159,7 @@ h6 {
 
 .picture {
     position: absolute;
-    background-image: url("/images/wallpaper.png");
+    background-image: url('./images/wallpaper.png');
     width: 635px;
     height: 505px;
     margin: 109px 0 100px -63px;
@@ -228,7 +228,7 @@ h6 {
 
     .picture {
         position: absolute;
-        background: url("/images/wallpapper_tablet.png") no-repeat;
+        background: url('./images/wallpapper-tablet.png') no-repeat;
         width: 635px;
         height: 505px;
         margin: 349px 0 100px -322px;
@@ -268,14 +268,14 @@ h6 {
     }
 
     .picture__wrapper {
-        width: 237px;
+        width: 270px;
         height: 787px;
     }
 
     .picture {
         width: 690px;
         height: 314px;
-        margin: 473px 0 100px -475px;
+        margin: 473px 0 100px -481px;
     }
 
     .box__wrapper {
@@ -328,7 +328,7 @@ h6 {
 
 @media (max-width: 767px) {
     .section {
-        max-width: none;
+        max-width: 425px;
         margin: 0 auto;
     }
 
@@ -371,11 +371,11 @@ h6 {
     }
 
     .picture {
-        background: url("/images/wallpaper_phone.png") no-repeat;
+        background: url('./images/wallpaper-phone.png') no-repeat;
         width: 345px;
         height: 2534px;
         border-radius: 15px;
-        margin: 314px 0 100px -228px;
+        margin: 314px 0 100px -234px;
     }
 
     .box__wrapper {
@@ -386,7 +386,7 @@ h6 {
         border-radius: 20px;
         display: block;
         position: relative;
-        margin: -163px 0 -3px 35px;
+        margin: -163px 0 -3px 40px;
 
     }
 
@@ -425,4 +425,19 @@ h6 {
         width: 286px;
         height: 39px;
     }
+}
+@media (max-width: 385px) {
+    .section{
+        max-width: none;
+    }
+    .text__wrapper{
+        padding-left: 18px;
+    }
+    .picture{
+        margin: 314px 0 100px -223px;
+    }
+    .box__wrapper{
+        margin: -163px 0 -3px 18px;
+    }
+
 }
