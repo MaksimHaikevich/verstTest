@@ -128,8 +128,9 @@ h6 {
 .text__wrapper p {
     margin: 0;
     padding: 40px 0;
-    width: 525px;
+    width: 461px;
     height: 66px;
+    word-wrap: break-word;
 ;
 }
 
